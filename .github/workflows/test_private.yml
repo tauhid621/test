@@ -1,0 +1,10 @@
+name : Test private
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:    
+    - uses: actions/checkout@v2
+    - uses: tauhid621/private-action@main
